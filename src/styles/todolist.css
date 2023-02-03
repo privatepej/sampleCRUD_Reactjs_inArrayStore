@@ -1,0 +1,28 @@
+.todolist-main {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.todolist-main .form-wrapper {
+  display: flex;
+  gap: 30px;
+  background-color: rgb(253, 51, 1);
+}
+.todolist-main .table-main {
+  background-color: palegoldenrod;
+}
+.todolist-main .table-main .header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+}
+.todolist-main .table-main .row-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=todolist.css.map */

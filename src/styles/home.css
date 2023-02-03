@@ -1,0 +1,16 @@
+.home-main {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  align-items: center;
+}
+.home-main h1 {
+  padding: 0;
+  margin: 0;
+}
+.home-main button {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}/*# sourceMappingURL=home.css.map */

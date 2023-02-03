@@ -1,0 +1,26 @@
+// default
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+// Override
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+// Assets
+$black-color: #000;
+$white-color: #fff;
+
+.app-main {
+  height: 100vh;
+
+  //   layout
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @import "./home.scss";
+  @import "./todolist.scss";
+}

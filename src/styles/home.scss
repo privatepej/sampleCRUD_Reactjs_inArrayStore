@@ -1,0 +1,17 @@
+.home-main {
+  // layout
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  button {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
