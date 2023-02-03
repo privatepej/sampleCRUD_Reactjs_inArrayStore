@@ -23,6 +23,7 @@ const Todolist = () => {
     setEdit({ ...edit, [name]: value });
   };
   // Edit
+
   const handleOnClickEdit = (index) => {
     setiIsUpdate(true);
     setEdit({ ...edit, editIndex: index });
